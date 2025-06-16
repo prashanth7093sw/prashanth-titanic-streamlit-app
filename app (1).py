@@ -1,7 +1,8 @@
+streamlit
+scikit-learn
+joblib
+numpy
 
-import streamlit as st
-import numpy as np
-import joblib
 
 # Load the trained model and label encoder
 model = joblib.load("logistic_model.pkl")
